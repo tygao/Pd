@@ -1,0 +1,17 @@
+Unhandled exception in Vasp
+Traceback (most recent call last):
+  File "/opt/kitchingroup/vasp-5.3.5/vaspy/vasp/vasp.py", line 48, in inner
+    return func(self, *args, **kwargs)
+  File "/home-research/tianyug1/python/ase/ase/calculators/calculator.py", line 276, in get_atoms
+    raise ValueError('Calculator has no atoms')
+ValueError: Calculator has no atoms
+Traceback (most recent call last):
+  File "./submit.py", line 11, in <module>
+    atoms = calc.get_atoms()
+  File "/opt/kitchingroup/vasp-5.3.5/vaspy/vasp/vasp.py", line 51, in inner
+    return self.exception_handler(self, *sys.exc_info())
+  File "/opt/kitchingroup/vasp-5.3.5/vaspy/vasp/vasp.py", line 48, in inner
+    return func(self, *args, **kwargs)
+  File "/home-research/tianyug1/python/ase/ase/calculators/calculator.py", line 276, in get_atoms
+    raise ValueError('Calculator has no atoms')
+ValueError: Calculator has no atoms
