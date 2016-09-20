@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./submit.py", line 10, in <module>
+    calc = Vasp("./../../../NDFT/surface=fcc111/type=neb/class=vacancy/image=5")
+NameError: name 'Vasp' is not defined
