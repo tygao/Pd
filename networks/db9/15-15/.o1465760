@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./submit.py", line 21, in <module>
+    regression=NeuralNetwork(hiddenlayers=(2, 15)))
+  File "/home-research/tianyug1/python/amp/__init__.py", line 311, in __init__
+    'rb')
+  File "/home-research/tianyug1/python/ase/ase/parallel.py", line 37, in paropen
+    return open(name, mode, buffering)
+IOError: [Errno 2] No such file or directory: 'checkpoint-parameters.json/trained-parameters.json'

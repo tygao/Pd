@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./submit.py", line 30, in <module>
+    extend_variables=False)
+  File "/home-research/tianyug1/python/amp/__init__.py", line 891, in train
+    train_forces, io, data_format, save_memory)
+  File "/home-research/tianyug1/python/amp/__init__.py", line 1695, in __init__
+    data_format)
+  File "/home-research/tianyug1/python/amp/utilities.py", line 394, in save
+    image = self.images[hash]
+KeyError: u'3d6d71a1821059a4c6aed7b92c02fb12'
